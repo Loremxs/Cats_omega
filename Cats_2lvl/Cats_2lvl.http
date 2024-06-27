@@ -1,0 +1,8 @@
+@Cats_2lvl_HostAddress = http://localhost:5000
+
+### Тестирование получения котика по статус-коду для указанного URL
+GET {{Cats_2lvl_HostAddress}}/api/httpcat?url=https://ya.ru/
+Accept: image/jpeg
+
+### https://localhost:5000/api/httpcat?url=http://httpstat.us/522
+### https://localhost:5000/api/httpcat?url=http://httpstat.us/200
